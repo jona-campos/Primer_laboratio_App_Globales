@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "frutiapp",
+            "cwd": "frutiapp",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "frutiapp (profile mode)",
+            "cwd": "frutiapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "frutiapp (release mode)",
+            "cwd": "frutiapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "frutiapp (Flutter Tests)",
+            "program": "test",
+            "cwd": "frutiapp",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
